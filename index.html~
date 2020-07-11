@@ -1,0 +1,172 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="graphics.css">
+  <link rel="stylesheet" type="text/css" href="layout.css">
+</head>
+<body>
+  <script src="transition.js"></script>
+  <div class="row" style="flex-wrap: wrap; height: 100%">
+    <div class="column" style="flex: 1.8;" id="sidebar">
+      <div class="spine">
+	<div class="cluster">
+	  <h1>Ryan Taylor</h1>
+	  <p style="text-align: left">Senior computer engineering student at the University of California at Santa Cruz. Expertise in low-level programming. Avid cyclist, bibliophile and Linux hobbyist. Looking to enable the latest processors to find novel, real-world, applications.</p>
+	</div>
+	<div class="cluster">
+	  <h2>Skills</h2>
+	  <div class="row spread">
+	    <h3 class="fill">Linux</h3>
+	    <div class="column fill">
+	      <p class="description">Proficient</p>
+	      <div class="row">
+		<div class="bar-filled" style="width:75%"></div>
+		<div class="bar-empty"></div>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="row spread">
+	    <h3 class="fill">Embedded</h3>
+	    <div class="column fill">
+	      <p class="description">Proficient</p>
+	      <div class="row">
+		<div class="bar-filled" style="width:75%"></div>
+		<div class="bar-empty"></div>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="row spread">
+	    <h3 class="fill">Emacs</h3>
+	    <div class="column fill">
+	      <p class="description">Proficient</p>
+	      <div class="row">
+		<div class="bar-filled" style="width:75%"></div>
+		<div class="bar-empty"></div>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="row spread">
+	    <h3 class="fill">Web Dev.</h3>
+	    <div class="column fill">
+	      <p class="description">Good</p>
+	      <div class="row">
+		<div class="bar-filled" style="width:50%"></div>
+		<div class="bar-empty"></div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<div class="cluster">
+	  <h2>Programming Languages</h2>
+	  <div class="row spread">
+	    <h3 class="fill">C</h3>
+	    <div class="column fill">
+	      <p class="description">Excellent</p>
+	      <div class="row">
+		<div class="bar-filled" style="width:100%"></div>
+		<div class="bar-empty"></div>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="row spread">
+	    <h3 class="fill">Java</h3>
+	    <div class="column fill">
+	      <p class="description">Proficient</p>
+	      <div class="row">
+		<div class="bar-filled" style="width:75%"></div>
+		<div class="bar-empty"></div>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="row spread">
+	    <h3 class="fill">Latex</h3>
+	    <div class="column fill">
+	      <p class="description">Proficient</p>
+	      <div class="row">
+		<div class="bar-filled" style="width:75%"></div>
+		<div class="bar-empty"></div>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="row spread">
+	    <h3 class="fill">Verilog</h3>
+	    <div class="column fill">
+	      <p class="description">Good</p>
+	      <div class="row">
+		<div class="bar-filled" style="width:50%"></div>
+		<div class="bar-empty"></div>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="row spread">
+	    <h3 class="fill">HTML/CSS/JS</h3>
+	    <div class="column fill">
+	      <p class="description">Good</p>
+	      <div class="row">
+		<div class="bar-filled" style="width:50%"></div>
+		<div class="bar-empty"></div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<div class="cluster">
+	  <a href="mailto: rythtayl@gmail.com">
+	    <div class="row underline">
+	      <img src="email.svg" class="icon" style="width:30px; margin-right: 10px;"></img>
+	      <p class="link-info">rythtayl@gmail.com</p>
+	    </div>
+	  </a>
+	  <a href="https://www.linkedin.com/in/ryan-taylor-107a45158" target="_blank">
+	    <div class="row underline">
+	      <img src="LI-In-Bug.png" class="icon" style="width:35px;height:30px; margin-right: 6px;"></img>
+	      <p class="link-info">linkedin.com/in/rythta</p>
+	    </div>
+	  </a>
+	  <a href="https://github.com/rythta" target="_blank">
+	    <div class="row">
+	      <img src="git-logo.svg" class="icon" style="width:30px; margin-right: 10px;"</img>
+		   <p class="link-info">github.com/rythta</p>
+	    </div>
+	  </a>
+	</div>
+      </div>
+    </div>
+    <div class="column" style="flex: 5;" id="content">
+      <div class="spine">
+	<div class="cluster">
+	  <h2>Experience</h2>
+	  <h3>Market Research Analyst - Pedego Electric Bikes</h3>
+	  <h4>2015 - 2016</h4>
+	  <p>Collected, analysed and presented data that guided future marketing decisions.</p>
+	  <h3>Embedded Linux Lead - NASA&#39s Student Launch Initiative (SLI)</h3>
+	  <h4>2018 - 2019</h4>
+	  <p>Competed in NASA&#39s 2019 Student Launch Initiative with the UCSC Rocket Team. Configured multiple Linux based microcontrollers for use in the Adaptive Aerobraking System.</p>
+	  <h3>Outreach Team Member - UCSC Rocket Team</h3>
+	  <h4>2018 - 2019</h4>
+	  <p>Helped design an informative promotional campaign to introduce the Rocket Team and cultivate interest in space exploration. Presented the interactive campaign to over 200 members of the Santa Cruz community.</p>
+	  <h3>Eagle Scout - Boy Scouts of America</h3>
+	  <h4>2008 - 2016</h4>
+	  <p>Designed, organized and raised funds for the installation of sapling support structures for a non-profit nursery. Coordinated 144 volunteer hours over the course of the project.</p>
+	</div>
+	<div class="cluster">
+	  <h2>Education</h2>
+	  <h3>University of California, Santa Cruz</h3>
+	  <h4>2017 - 2021</h4>
+	  <p>Bachelors of Science in computer engineering with a focus in computer systems.</p>
+	  <h3>Coursework</h3>
+	  <p>MIPS PIC x86 RISCV assembly / differential calculus / integral calculus / vector calculus / linear algebra / differential equations / discrete math / probability / statistics / computer architecture / microprocessor systems design / logic design in verilog / data structures / algorithms / mechanics / waves / optics / electricity and magnetism / fundamentals of electrical engineering / technical writing</p>
+	</div>
+	<div class="cluster">
+	  <h2>Interests</h2>
+	  <h3>Arm Linux</h3>
+	  <p>Member of the Pine64 Arm Linux community. Enjoys tweaking the GNU/Linux operating system for use on various Pine64 devices.</p>
+	  <h3>Cycling</h3>
+	  <p>Cycles for commute and pleasure. Member of a mountain bike club in highschool. Has ridden competitively in cross country mountain bike events.</p>
+	  <h3>Reading</h3>
+	  <p>Voracious reader, favorite authors include J. R. R. Tolkein, George R. R. Martin, Isaac Asimov, Martha Wells, Lois McMaster Bujold, Frank Herbert and Ursul
+	    a K. Le Guin.</p>
+	</div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
