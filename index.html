@@ -1,15 +1,13 @@
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" type="text/css" href="graphics.css">
   <link rel="stylesheet" type="text/css" href="layout.css">
+  <meta charset="utf-8">
 </head>
 <body>
-  <script src="transition.js"></script>
   <div class="row" style="flex-wrap: wrap; height: 100%">
     <div class="column" style="flex: 1.8;" id="sidebar">
       <div class="spine">
 	<div class="cluster">
-	  <div class="canvas">
 	  <h1>Ryan Taylor</h1>
 	  <p style="text-align: left">Senior computer engineering student at the University of California at Santa Cruz. Expertise in low-level programming. Avid cyclist, bibliophile and Linux hobbyist. Looking to enable the latest processors to find novel, real-world, applications.</p>
 	</div>
@@ -166,6 +164,13 @@
 	  <p>Voracious reader, favorite authors include J. R. R. Tolkein, George R. R. Martin, Isaac Asimov, Martha Wells, Lois McMaster Bujold, Frank Herbert and Ursul
 	    a K. Le Guin.</p>
 	</div>
+      </div>
+    </div>
+    <div class="column" style="flex: 6.6;" id="content">
+	<div class="cluster" style="height: 90%; width: 90%;">
+	  <canvas id="canvas"></canvas>
+	  <script src="gpu-browser.min.js"></script>
+	  <script src="parametric_animation.js"></script>
       </div>
     </div>
   </div>
